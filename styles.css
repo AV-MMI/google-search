@@ -1,3 +1,91 @@
-article {
-	width: 1000px;
+
+/*Header*/
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
+
+/**Left**/
+.left_top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.left_top img{
+	width: 95px;
+	margin: 20px 30px 20px 15px;
+}
+
+.srch_box {
+	width: 600px;
+	height: 45px;
+	border: 1px solid #dfe1e5;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.srch_box input {
+	outline: none;
+	border: none;
+	margin-left: 20px;
+	width: 85%;
+	font-size: 16px;
+}
+
+#microphone {
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-image: url(https://image.flaticon.com/icons/svg/786/786459.svg);
+}
+
+#loupe {
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	background-image: url(https://image.flaticon.com/icons/svg/751/751463.svg);
+}
+
+/**Right**/
+.right_top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+/***App icon***/
+.app_cntr {
+  width: 18px;
+  margin-left: 520px;
+}
+
+.column {
+  display: flex;
+  justify-content: space-around;
+}
+
+#point {
+  background-color: gray;
+  width: 4px;
+  height: 4px;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+/***Sign in button***/
+.sign_in_btn {
+	color: #fff;
+	font-size: 14px;
+	padding: 9px 23px;
+	margin: 20px;
+	background-color: #1a73e8;
+	border: solid 1px transparent;
+	border-radius: 3px;
+}
+
+/*navbar*/
