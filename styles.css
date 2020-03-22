@@ -1,9 +1,30 @@
+body {
+	margin: 0;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	color: #3C4043;
+	padding-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 400;
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	margin: 0;
+}
 
 /*Header*/
 header {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+
 }
 
 /**Left**/
@@ -20,7 +41,7 @@ header {
 }
 
 .srch_box {
-	width: 600px;
+	width: 630px;
 	height: 45px;
 	border: 1px solid #dfe1e5;
 	border-radius: 30px;
@@ -51,7 +72,7 @@ header {
 	background-image: url(https://image.flaticon.com/icons/svg/751/751463.svg);
 }
 
-/**Right**/
+		/**Right**/
 .right_top {
 	display: flex;
 	flex-direction: row;
@@ -61,7 +82,7 @@ header {
 /***App icon***/
 .app_cntr {
   width: 18px;
-  margin-left: 520px;
+  margin-left: 650px;
 }
 
 .column {
@@ -88,4 +109,150 @@ header {
 	border-radius: 3px;
 }
 
-/*navbar*/
+/*Navbar*/
+nav {
+	border-bottom: 1px solid #dfe1e5;
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin-left: 110px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0;
+}
+
+nav li {
+	height: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+nav li:nth-last-child(-n+2) {
+	position: relative;
+	left: 50px;
+	margin-left: 20px;
+}
+
+.nvbr_icn {
+	width: 13px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#selected {
+	border-bottom: 3px solid blue;
+	color: blue;
+}
+
+/*Main*/
+main {
+	padding-top: 30px;
+	padding-left: 165px;
+}
+
+#sh_rt {
+	position: relative;
+	bottom: 20px;
+}
+
+.route {
+	color: gray;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+main h2 {
+	margin: 0;
+	font-size: 20px;
+	line-height: 1.3;
+}
+
+main h3 {
+	margin: 0;
+	font-size: 20px;
+}
+
+main article p {
+	margin: 5px;
+}
+
+#frst_rslt {
+	width: 560px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#frst_rslt p {
+	margin-bottom: 20px;
+	width: 220px;
+}
+
+#more_rslt {
+	margin-left: 40px;
+}
+
+/**TOP Box**/
+.ctnr_bx {
+	position: relative;
+	left: 55%;
+	bottom: 320px;
+	width: 456px;
+	border: 1px solid #dfe1e5;
+	border-radius: 10px;
+}
+/***Top part of the box***/
+.sup_ctnr {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #dfe1e5;
+}
+
+#TOP_cmpny h4 {
+	font-weight: normal;
+	font-size: 30px;
+	width: 200px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+#TOP_cmpny span {
+	color:;
+}
+
+#shr_icn {
+	width: 20px;
+	margin-top: 20px;
+}
+
+#TOP_icn {
+	width: 150px;
+}
+
+/***Middle Container***/
+.mid_ctnr {
+	display: flex;
+	align-items: center;
+	padding: 10px 15px;
+	border-bottom: 1px solid #dfe1e5;
+}
+
+#globe_icn {
+	width: 20px;
+	margin-right: 20px;
+}
+
+/***Bottom Container***/
+.bottom_ctnr {
+	padding: 10px 15px;
+}
+
+.bottom_ctnr p {
+	margin-bottom: 10px;
+}
