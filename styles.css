@@ -89,7 +89,7 @@ header {
 /***App icon***/
 .app_cntr {
   width: 18px;
-  margin-left: 620px;
+  margin-left: 500px;
 }
 
 .column {
@@ -250,8 +250,8 @@ main article p {
 /**TOP Box**/
 .bg_bx {
 	position: absolute;
-	left: 55%;
-	bottom: 130px;
+	left: 62%;
+	top: 25%;
 	width: 456px;
 }
 
@@ -426,7 +426,7 @@ main article p {
 .ppl_ask_bg {
 	margin-top: 30px;
 	margin-bottom: 30px;
-	width: 656px;
+	width: 650px;
 }
 
 #fdk {
